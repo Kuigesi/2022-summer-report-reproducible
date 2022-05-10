@@ -21,8 +21,12 @@ function runtest() {
 }
 
 function plot() {
-  rm figure.pdf
-  rm table.pdf
+  if test -f figure.pdf; then
+    rm figure.pdf
+  fi
+  if test -f table.pdf; then
+    rm table.pdf
+  fi
   conda activate
   python3 ./plot.py
 }
