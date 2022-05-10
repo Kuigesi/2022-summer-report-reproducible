@@ -2,7 +2,7 @@
 
 To reproduce the evaluation presented in the 2022 summer semester report paper:
 
-First, login to the cuda server `bigdata2.cs.purdue.edu`, make sure you have access to this server
+First, login to the bigdata server `bigdata2.cs.purdue.edu`, make sure you have access to this server
 
 ```bash
 ssh username@bigdata2.cs.purdue.edu
